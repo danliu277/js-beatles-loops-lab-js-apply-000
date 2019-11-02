@@ -8,7 +8,7 @@ function theBeatlesPlay(musicians, instruments) {
 }
 
 function johnLennonFacts(facts) {
-  facts.forEach(fact => {
+  facts.map(fact => {
     fact + "!!!";
   })
   return facts
